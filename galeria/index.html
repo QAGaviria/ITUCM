@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+        <meta charset="utf-8">
+        <title>GALERIA - JAIME GAVIRIA</title>
+    </head>
+    <body>
+    	<h1>GALERIA DE IMAGENES</h1>
+
+  <div class="row">
+    <img src="flyer1.jpg" alt="Tomates Fritos" onclick="myFunction(this);">
+    <img src="flyer2.jpg" alt="Limp Bizkit" onclick="myFunction(this);">
+  </div>
+  <div class="row">
+    
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
+
+    </body>
+</html>
