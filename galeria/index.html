@@ -2,38 +2,87 @@
 <html>
     <head>       
         <meta charset="utf-8">
-        <title>GALERIA - JAIME GAVIRIA</title>
+        <title>Galeria HTML - Jaime Gaviria</title>
+        <style>
+        	
+		img{
+		width: 120px;
+		height: 150px;
+		}
+		th{
+			font-size: 2em;
+			background-color: #243A62;
+			padding: 5px;
+			color: white;
+
+		}
+		body{
+			font-family: sans-serif;
+						text-align: center;
+			background-color: #243A62;
+		}
+		table{
+			background-color: white;
+			width: 50%;
+
+		}
+		td{
+			padding: 5px;
+
+		}
+		p{
+			color: white;
+			opacity: 0.7;
+		}
+
+        </style>
     </head>
     <body>
-    	<h1>GALERIA DE IMAGENES</h1>
+<table align="center">
+    <tr>
+        <th colspan="4">Galeria HTML</th>
+    </tr>
+    <tr>
+        <td colspan="4"><em>Haz click en la imagen para ampliar.</em></td>
+    </tr>
 
-  <div class="row">
-    <img src="flyer1.jpg" alt="Tomates Fritos" onclick="myFunction(this);">
-    <img src="flyer2.jpg" alt="Limp Bizkit" onclick="myFunction(this);">
-  </div>
-  <div class="row">
-    
-  </div>
-  <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
-  </div>
-</div>
+    <tr>
+        <td><a href="Images/1.jpg" target="blank"><img src="thumbnails/1.jpg"></a></td>
+        <td><a href="Images/2.jpg" target="blank"><img src="thumbnails/2.jpg"></a></td>
+        <td><a href="Images/3.jpg" target="blank"><img src="thumbnails/3.jpg"></a></td>
+        <td><a href="Images/4.jpg" target="blank"><img src="thumbnails/4.jpg"></a></td>     
+    </tr>
+    <tr>
+        <td><a href="Images/5.jpg" target="blank"><img src="thumbnails/5.jpg"></a></td>
+        <td><a href="Images/6.jpg" target="blank"><img src="thumbnails/6.jpg"></a></td>
+        <td><a href="Images/7.jpg" target="blank"><img src="thumbnails/7.jpg"></a></td>
+        <td><a href="Images/8.jpg" target="blank"><img src="thumbnails/8.jpg"></a></td>
+    </tr>    
+        <tr>
+       	<td><a href="Images/9.jpg" target="blank"><img src="thumbnails/9.jpg"></a></td>
+       	<td><a href="Images/10.jpg" target="blank"><img src="thumbnails/10.jpg"></a></td>
+       	<td><a href="Images/11.jpg" target="blank"><img src="thumbnails/11.jpg"></a></td>
+       	<td><a href="Images/12.jpg" target="blank"><img src="thumbnails/12.jpg"></a></td>
+    </tr>  
+        <tr>
+       	<td><a href="Images/13.jpg" target="blank"><img src="thumbnails/13.jpg"></a></td>
+       	<td><a href="Images/14.jpg" target="blank"><img src="thumbnails/14.jpg"></a></td>
+       	<td><a href="Images/15.jpg" target="blank"><img src="thumbnails/15.jpg"></a></td>
+       	<td><a href="Images/16.jpg" target="blank"><img src="thumbnails/16.jpg"></a></td>
+    </tr>  
+        <tr>
+       	<td><a href="Images/17.jpg" target="blank"><img src="thumbnails/17.jpg"></a></td>
+       	<td><a href="Images/18.jpg" target="blank"><img src="thumbnails/18.jpg"></a></td>
+       	<td><a href="Images/19.jpg" target="blank"><img src="thumbnails/19.jpg"></a></td>
+       	<td><a href="Images/20.jpg" target="blank"><img src="thumbnails/20.jpg"></a></td>
+    </tr>  
 
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+</table> 
+<footer>
 
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
-
+<p>Jaime Gaviria - 13.649.435</p>
+</footer>
 
     </body>
 </html>
+
