@@ -1,0 +1,61 @@
+<!-- Jaime Gaviria - 13.649.435 - 10/04/2021 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>EVALUACION DEL TERCER CAPITULO: FORMULARIOS</title>
+</head>
+<body>
+<h1>Formulario</h1>
+
+<form>
+   <!-- 3.1 Formularios. Realizar un formulario de datos, donde se este realizando un inscripción escolar (nombre apellido, cédula, grado, edad, representante, entre otros). -->
+
+   <fieldset>
+      <legend> INSCRIPCION ESCOLAR </legend><br>
+      <label>Nombre:&nbsp</label><input type="text" placeholder="Ejemplo: Jaime">
+
+      <label>Apellido:&nbsp</label><input type="text" placeholder="Ejemplo: Gaviria">
+      <br><br>
+
+      <label>Cédula:&nbsp</label><input type="number" placeholder="Ejemplo: 13649435">
+      <label>Edad:&nbsp</label><input type="number" placeholder="Ejemplo: 6">
+      <br><br>   
+      <label>Sexo:&nbsp </label>
+         <input type="radio" name="sexo" value="Varón"> Varón
+         <input type="radio" name="sexo" value="Mujer"> Mujer
+      <br><br>
+
+      <label>Grado:&nbsp </label>
+            <select name="menu">
+                  <option>1er</option>
+                  <option>2do</option>
+                  <option>3ro</option>
+                  <option>4to</option>
+                  <option>5to</option>
+                  <option>6to</option>
+            </select>
+
+      <br><br>
+      <label>DATOS DEL REPRESENTANTE:&nbsp</label><br><br><label>Nombre:&nbsp</label><input type="text" placeholder="Ejemplo: Jorge"><label>&nbsp Apellido:&nbsp</label><input type="text" placeholder="Ejemplo: Gaviria">
+ 
+      <br><br>
+      <label>Email:&nbsp </label>
+         <input type="text" id="email">
+      <br><br>
+   <label>Dirección:&nbsp </label><br>
+   <textarea name="texto" rows="4" cols="80"></textarea>
+
+
+
+   <br><br>
+   <input type="submit" value="Enviar"> <input type="reset" value="Borrar Formulario">
+
+
+   </fieldset>
+
+</form>
+<hr>
+</body>
+</html>
